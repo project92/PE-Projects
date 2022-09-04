@@ -1,0 +1,220 @@
+/*/<style>*/
+@import meyer-reset.css;
+/*@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&family=Source+Code+Pro&display=swap&family=Caveat+Brush&display=swap&family=Tangerine');/*/
+/*</style>*/
+
+/* BOX MODEL
+https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+
+
+/* IMAGES
+https://codepen.io/perpetual-education/pen/dyNemyW */
+
+/*div img { 
+	display: block;
+	width: 100%;
+	height: auto;
+}
+*/
+* { 
+  box-sizing: border-box;
+}
+
+
+/*CLASSES*/
+
+.inner-column {
+  height: auto;
+  max-width: 1050px;
+  margin: auto;
+  padding: 10px;
+}
+
+/*.inner-column2{
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+}*/
+
+.centerContent {
+  width:50%;
+  margin:auto
+}
+
+.site-header { 
+  text-align: center;
+  /*overflow: hidden;*/
+  background:  url("site images/josieman4.png") space repeat-x fixed center;
+}
+
+.links {
+  height: auto;
+  width: 100%;
+  background: url("site images/jo-cho");
+  justify-content: center;
+}
+
+.links url {
+  opacity: 50%;
+}
+
+.logo {
+  display: inline-flex;
+  vertical-align: middle;
+  padding: 20px;
+}
+
+nav {
+  display: inline-block;
+  text-align: center;
+  font-size: 16pt;
+}
+
+div ul {
+	border: 5px groove #ff66ff;
+  border-radius: 50px;
+	background:url('site images/josieman3.png') fixed,
+  url('site images/gauchoCircleFrame.png') fixed,#000000;
+	background-size: 500px, 50px;
+  padding: 100px;
+}
+
+/*div img {
+  max-width: 80ch;
+  height: auto;
+  display: block;
+  vertical-align: middle;
+}
+*/
+/*Page Sections*/
+
+
+* {
+  color:  white;
+}
+
+body { 
+background: url(projects/images/gradient1.jpg);
+background-attachment: scroll;
+  }
+
+body img {
+  display: flex;
+  max-width: 500px;
+}
+
+span {
+	background-color: black;
+	border: 2px groove #ff66ff;
+	border-radius: 25px;
+	padding-left: 20px;
+}
+
+h1 { 
+  font-family: Caveat Brush;
+  font-size: 50pt;
+  font-weight: 800;
+  letter-spacing: 1.2rem;
+  text-shadow: -6px 2px 5px #ff66ff;
+}
+
+h2 {
+  font-family: Caveat Brush;
+  color: black;
+  font-size: 25pt;
+  letter-spacing: 0.3em;
+  text-shadow: -2 px -2px 5px #ff66ff;
+  font-weight: 700;
+}
+
+ul + h2 {
+  padding-top: 20px;
+}
+
+p {
+  font-family: DynaPuff;
+	font-size: 16pt;
+  letter-spacing: 0.07em;
+	font-weight: 700;
+}
+
+a {
+  text-align: center;
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 18pt;
+  line-height:2;
+  font-weight: 800;
+}
+
+ul {
+  display: inline-block;
+  list-style: none;
+}
+
+
+li {
+  letter-spacing: 0.1em;
+  font-size: 20pt;
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+  text-shadow: -2px -2px 2px #ff66ff;
+}
+
+a:visited {
+  text-decoration: line-through;
+  text-shadow: -3px -2px 4px #fab762;
+}
+
+li {
+  transition: color 1s, font-size 0.2s, border 2s, background-color 0.2s, padding 0.2s;
+} 
+
+li:hover {
+  border: 15px inset #ff66ff;
+  border-radius: 10px;
+  text-shadow: -2px 2px 1px #ff66ff;
+  font-size:  200%;
+  padding: 10px;
+  background-color: black;
+}
+
+  /*Author Defined Classes*/
+
+.left {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+  width: 50%;
+}
+
+.transparent {
+  opacity: 30%;
+}
+
+.big {
+transition: font-size 0.5s;
+}
+
+.big:hover {
+font-size: 110%;
+}
+
+.just {
+  justify-content: center;
+}
+
+
+
+
+
+

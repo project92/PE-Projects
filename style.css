@@ -1,5 +1,6 @@
 /*/<style>*/
-@import meyer-reset.css;
+@import 'meyer-reset.css';
+@import 'setup.css';
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,700;1,700&family=Palanquin:wght@400;500;600&display=swap');
 /
 
@@ -25,7 +26,7 @@ https://codepen.io/perpetual-education/pen/dyNemyW */
 
 .inner-column {
   height: auto;
-  max-width: 1200px;
+  max-width: 800px;
   margin: auto;
   padding: 10px;
 }
@@ -49,7 +50,7 @@ https://codepen.io/perpetual-education/pen/dyNemyW */
 }
 
 div {
-  border: 4px groove white;
+  border: 2px groove white;
   border-radius: 2px;
 	background: #163D57;
   /*padding: 5px;*/
@@ -72,6 +73,7 @@ nav {
   padding: 10px;
   display: inline-block;
   margin: 10px;
+  text-align: center;
 }
 
 
@@ -84,36 +86,38 @@ nav {
 }
 
 body {
-  background: #FDF1E7;
+  background:green;
 }
 
 h1 { 
   text-align: center;
   font-size: 40pt;
   font-weight: 800;
+  padding: 10px;
   text-shadow: -4px -1px 2px #E49797;
 }
 
 h2 {
   font-style: italic;
   font-size: 16pt;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.0001em;
   text-shadow: -2 px -2px 3px #ff66ff;
   font-weight: 700;
   text-align: center;
+  transition: 2s;
 }
 
 p {
   font-family: palanquin;
-	font-size: 12pt;
+	font-size: 16pt;
 	font-weight: 800;
+  letter-spacing: 0.05em;
   padding: 20px;
   margin: 10px 100px 10px 100px;
-  justify-content: right;
 }
 
 a {
-  /*font-family: palanquin;*/
+  font-family: palanquin;
   text-align: center;
   display: inline-block;
   margin-right: 20px;
@@ -162,7 +166,7 @@ ol, ul + h2 {
 div:hover {
   border: 5px inset #F4A15D;
   border-radius: 10px;
-  text-shadow: -2px 0px 5px #E49797;
+  text-shadow: -2px 0px 1px #E49797;
   /*font-size:  110%;*/
   color: white;
  }
